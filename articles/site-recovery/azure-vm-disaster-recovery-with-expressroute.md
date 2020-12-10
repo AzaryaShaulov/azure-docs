@@ -104,7 +104,7 @@ Typically enterprise deployments have workloads split across multiple Azure VNet
 Spoke to hub | Allow virtual network address | Enabled
 Spoke to hub | Allow forwarded traffic | Enabled
 Spoke to hub | Allow gateway transit | Disabled
-Spoke to hub | Use remove gateways | Enabled
+Spoke to hub | Use remote gateways | Enabled
 
  ![Spoke to hub peering configuration](./media/azure-vm-disaster-recovery-with-expressroute/spoke-to-hub-peering-configuration.png)
 
@@ -115,7 +115,7 @@ Spoke to hub | Use remove gateways | Enabled
 Hub to spoke | Allow virtual network address | Enabled
 Hub to spoke | Allow forwarded traffic | Enabled
 Hub to spoke | Allow gateway transit | Enabled
-Hub to spoke | Use remove gateways | Disabled
+Hub to spoke | Use remote gateways | Disabled
 
  ![Hub to spoke peering configuration](./media/azure-vm-disaster-recovery-with-expressroute/hub-to-spoke-peering-configuration.png)
 
